@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style> 
+        input[type=text][type=email] {
+          width: 100%;
+          padding: 12px 20px;
+          margin: 8px 0;
+          box-sizing: border-box;
+        }
+        </style>
+  <title> ĐĂNG KÝ</title>
+</head>
+<body style= "background-color: paleturquoise;">
+    <h1 style="text-align: center;background-color: tomato ;color: white;">SỞ THÍCH CỦA BẠN</h1>
+    <form action="login.php" method="POST">
+        <fieldset style="background-color: whitesmoke;"">
+        Họ và Tên:    <input type = "text" name = "name"/>
+        <br>
+        Email:    <input type = "email" name = "email"/>
+        <br>
+        Sở Thích    <input type="checkbox" name="box[]" value="b1">Thể Thao
+                    <input type="checkbox" name="box[]" value="b2">Âm Nhạc
+                    <input type="checkbox" name="box[]" value="b3">Đọc Sách
+            <br>
+                    <input type="checkbox" name="box[]" value="b1">Lướt Web
+                    <input type="checkbox" name="box[]" value="b2">Chơi Game
+                    <input type="checkbox" name="box[]" value="b3">Điện Ảnh
+            <br>
+                    <input type="checkbox" name="box[]" value="b3">Du Lịch
+            <br>
+                    <input type="submit"> Gửi thông tin
+                <input type="reset"> Nhập Lại
+    </fieldset>
+    </form>
