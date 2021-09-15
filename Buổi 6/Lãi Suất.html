@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let inputA;
+    inputA = prompt("Nhập số tiền tiết kiệm");
+    inputB = prompt("Nhập số năm tiết kiệm");
+    let A = parseInt(inputA);
+    let B = parseInt(inputB);
+    let TLai = A*0.069;
+    let TLaiTNam = A + B*TLai;
+    document.write("Tiền lãi trong 1 năm: " + TLai);
+    document.write("<br/>")
+    document.write("Tiền lãi trong những số năm: " + TLaiTNam);
+
+    </script>
+</body>
+</html>
